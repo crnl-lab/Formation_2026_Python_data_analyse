@@ -1,6 +1,6 @@
 
 
-**13 avril 2026 - 9h00>13h00**
+**16 Mars 2026 - 9h00>13h00**
 
 Sam + Alexandra + Anne + Alexandre
 
@@ -12,7 +12,7 @@ Sam + Alexandra + Anne + Alexandre
    * **plotly** 20min Anne
 
 
-**14 avril 2026 - 9h00>13h00**
+**17 Mars 2026 - 9h00>13h00**
 
 Sam + Alexandra + Anne
 
@@ -25,7 +25,7 @@ Sam + Alexandra + Anne
 
 
 
-**15 avril 2026 - 9h00>13h00**
+**18 Mars 2026 - 9h00>13h00**
 
 Sam + Alexandra + Anne
 
@@ -38,7 +38,7 @@ Sam + Alexandra + Anne
 
 
 
-**16 avril 2026 - 9h00>13h00**
+**19 Mars 2026 - 9h00>13h00**
 
 Sam + Alexandra + Anne + Alexandre
 
@@ -52,7 +52,7 @@ Sam + Alexandra + Anne + Alexandre
    * **numba ???** <<<< Sam
 
 
-**17 avril 2026 - 9h00>13h00**
+**20 Mars 2026 - 9h00>13h00**
 
   * Cluster : ssh, jupyter, venv, uv, slurm
 
