@@ -8,6 +8,8 @@ notebooks/example.zarr
 notebooks/example.nc
 notebooks/mydata.nc
 notebooks/data/FashionMNIST/*
+notebooks/quarto.html
+notebooks/quarto.quarto_ipynb
 
 
 

@@ -1,0 +1,79 @@
+---
+title: "Introduction à quarto"
+format:
+  html:
+    code-fold: true
+    page-layout: article
+    keep-ipynb: true
+    toc: true
+    toc-depth: 4
+    toc-location: left
+
+
+---
+
+## Quarto
+
+::: {.callout-tip}
+Les notebook Jupyter c'est bien, mais on y stocke à la fois le code et les résultats, figures, et on est limité à un seul language à la fois. Avec Quarto le code reste léger et versionnable (i.e. adapté pour git). 
+:::
+
+
+### Exemple d'appel d'un code en python
+
+```{python}
+#| eval: true
+import numpy as np
+for i in range(2):
+    A=np.random.randn(100)
+    print(A[:5])
+```
+
+### Exemple d'appel d'un code en R qui réutilise une variable python
+
+```{r}
+A = as.numeric(reticulate::py_eval('A'))
+
+print(A[1:5])
+plot(A + 1, type = "b", col = c('lavender',rainbow(99)), main="randn")
+
+shapiro.test(A)
+```
+
+## Sur le JupyterHub du cluster
+
+Le JupyterHub du cluster est accessible à l'adresse 
+[http://10.69.168.24:8000](http://10.69.168.24:8000)
+
+On peut installer quarto en suivant les consignes de la page 
+[https://quarto.org/docs/download/tarball.html](https://quarto.org/docs/download/tarball.html), en copiant les commandes dans un terminal du JupyterHub.
+
+```{.bash}
+#| eval: false
+
+# Download
+wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.7.32/quarto-1.7.32-linux-amd64.tar.gz
+# Extract
+mkdir ~/opt
+tar -C ~/opt -xvzf quarto-1.7.32-linux-amd64.tar.gz
+# Create symbolic link 
+mkdir -p ~/.local/bin
+ln -s ~/opt/quarto-1.7.32/bin/quarto ~/.local/bin/quarto
+# Add to PATH
+( echo ""; echo 'export PATH=$PATH:~/.local/bin\n' ; echo "" ) >> ~/.profile
+source ~/.profile
+```
+
+### Utilisation 
+
+On peut 
+
+* ouvrir un document .qmd dans une fenêtre
+* ouvrir un terminal dans une autre fenêtre
+  et y lancer la commande `quarto preview TutorielQuarto.qmd`
+  noter l'adresse renvoyée
+* ouvrir le document html généré
+
+Mais c'est pas très wysiwyg if faut tout le temps faire CTRL-S dans l'éditeur et reload dans le visualisateur.
+
+C'est un peu plus facile dans Rstudio, vscode ou positron.
