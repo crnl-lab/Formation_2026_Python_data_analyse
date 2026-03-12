@@ -27,3 +27,9 @@ zarr
 panel
 polars
 physio
+pymc
+arviz
+jupyter_bokeh
+hvplot
+bokeh
+bokeh_sampledata
