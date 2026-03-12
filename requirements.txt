@@ -16,6 +16,7 @@ ipympl
 plotly
 tables
 ephyviewer
+av
 neo
 mne
 pingouin
