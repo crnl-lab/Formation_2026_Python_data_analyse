@@ -49,7 +49,8 @@ Sam + Alexandra + Anne + Alexandre
    * **xarray** 20min Sam
    * **torch** 20min Sam
    * **panel ou dash** 30min Alexandre
-   * **numba ???** <<<< Sam
+   * **numba** 5 min Sam
+
 
 
 **20 Mars 2026 - 9h00>13h00**

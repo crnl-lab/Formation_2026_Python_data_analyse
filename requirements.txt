@@ -34,3 +34,4 @@ hvplot
 bokeh
 bokeh_sampledata
 h5py
+numba
