@@ -7,6 +7,7 @@ notebooks/Data_exo_final/*
 notebooks/example.zarr
 notebooks/example.nc
 notebooks/mydata.nc
+notebooks/data/FashionMNIST/*
 
 
 
