@@ -33,3 +33,4 @@ jupyter_bokeh
 hvplot
 bokeh
 bokeh_sampledata
+h5py
