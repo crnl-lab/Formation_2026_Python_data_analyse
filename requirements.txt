@@ -26,3 +26,4 @@ scikit-image
 zarr
 panel
 polars
+physio
