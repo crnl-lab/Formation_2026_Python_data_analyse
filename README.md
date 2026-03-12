@@ -15,7 +15,8 @@ Ce repo contient le materiel de la formation analyse de donnée en python du CRN
     * [`requirements.txt`](https://raw.githubusercontent.com/crnl-lab/Formation_2026_Python_data_analyse/main/requirements.txt).
 5. Open terminal or CMD and run (**Adapt with your correct name!!**):
 6. Linux `uv venv /home/samuel/.virtualenvs/env_formation --python 3.13`
-6. macOS `uv venv /Users/samuel/.virtualenvs/env_formation --python 3.13`
+6. macOS arm64 (M1...M5) `uv venv /Users/samuel/.virtualenvs/env_formation --python 3.13-arm64`
+6. macOS x86 (old intel) `uv venv /Users/samuel/.virtualenvs/env_formation --python 3.13`
 6. Windows `uv venv C:\Users\samuel\.virtualenvs\env_formation --python 3.13`
 7. Activate your virtual environment by running:
    - Linux `source /home/samuel/.virtualenvs/env_formation/bin/activate` (you should see `(env_formation)` in your terminal)
