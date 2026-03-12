@@ -3,14 +3,15 @@ notebooks/*.txt
 notebooks/*.npy
 notebooks/*.xlsx
 notebooks/*.h5
+notebooks/first_figure.html
 notebooks/Data_exo_final/*
 notebooks/example.zarr
 notebooks/example.nc
 notebooks/mydata.nc
 notebooks/data/FashionMNIST/*
-notebooks/quarto.html
-notebooks/quarto.quarto_ipynb
-
+quarto.html
+quarto.quarto_ipynb
+quarto_files
 
 
 # Byte-compiled / optimized / DLL files
