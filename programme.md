@@ -5,8 +5,8 @@
 Sam + Alexandra + Anne + Alexandre
 
    * **intro python/anaconda/uv** 20min Sam
-   * **jupyter/jupyterlab vs vscode vs positron** 20min Sam
-   * **Base_language** 70min Sam
+   * **jupyterlab vs vscode vs positron** 20min Sam
+   * **base language python** 70min Sam
    * **numpy** 40min Sam
    * **matplotlib** 60min Alexandre / Anne
    * **plotly** 20min Anne
