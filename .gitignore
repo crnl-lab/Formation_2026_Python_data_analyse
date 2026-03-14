@@ -12,7 +12,12 @@ notebooks/data/FashionMNIST/*
 quarto.html
 quarto.quarto_ipynb
 quarto_files
-
+eeg_data
+data/data.h5
+data/data.npy
+data/data.txt
+data/eeg.h5
+data/experience_eeg.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
