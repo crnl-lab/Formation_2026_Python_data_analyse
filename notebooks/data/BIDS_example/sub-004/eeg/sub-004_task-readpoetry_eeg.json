@@ -1,0 +1,19 @@
+{
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": {
+    "FilterDescription": {
+      "Description": "n/a"
+    }
+  },
+  "ManufacturersModelName": "ActiveTwo",
+  "Manufacturer": "BioSemi",
+  "EEGPlacementScheme": "10-20",
+  "EEGGround": "n/a",
+  "EEGReference": "earlobes",
+  "CapManufacturersModelName": "64 channel",
+  "CapManufacturer": "Easycap",
+  "TaskName": "readpoetry",
+  "RecordingType": "continuous",
+  "RecordingDuration": 7569,
+  "SamplingFrequency": 512
+}
