@@ -1,4 +1,4 @@
-# Formation analyse de doonées en python 2026 CRNL
+# Formation analyse de données en python 2026 CRNL
 
 Ce repo contient le materiel de la formation analyse de donnée en python du CRNL 2026
 
